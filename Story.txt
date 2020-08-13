@@ -1,0 +1,8 @@
+There is a 'Listing' class which takes IListing interface as an input parameter. 
+Listing has method 'GetListingDetails' which returns the detials of a listing.
+
+We have a 'RealEstateListing' object and would like to get the details of realestatelisting using listing class.
+
+To achieve it, a 'RealEstateListingAdapter' is created which takes realestate object as an input parameter.
+This inherits same inerface that is input parameter of 'Listing' class.
+The methods of inerface are implemented in the 'RealEstateListingAdapter'.  

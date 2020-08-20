@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeWork.Interfaces
 {
-    public interface IListing
+    public interface IListingData
     {
         string ReturnListingNumber();
         string ReturnAddress();

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HomeWork
 {
-    public class RealEstateAdapter:IListing
+    public class RealEstateAdapter:IListingData
     {
         private RealEstateListing _realEstateListing;
 

@@ -8,18 +8,18 @@ namespace HomeWork
 {
     public class Listing
     {
-        private IListing _listing;
+        private IListingData _listingData;
 
-        public Listing(IListing listing)
+        public Listing(IListingData listing)
         {
-            _listing = listing;
+            _listingData = listing;
         }
 
         public void GetListingDetails()
         {
-            Console.WriteLine($"listingNumber = {_listing.ReturnListingNumber()}");
-            Console.WriteLine($"ListingAddress = {_listing.ReturnAddress()}");
-            Console.WriteLine($"listingRegion = {_listing.ReturnRegion()}");
+            Console.WriteLine($"listingNumber = {_listingData.ReturnListingNumber()}");
+            Console.WriteLine($"ListingAddress = {_listingData.ReturnAddress()}");
+            Console.WriteLine($"listingRegion = {_listingData.ReturnRegion()}");
         }
 
     }
